@@ -9,7 +9,7 @@ def linked_list_from_string(s):
 
     for i in values[1:]:
         if i == 'None':
-               break
+            break
         cur = Node(data=int(i))
         prev.next = cur
         prev = cur

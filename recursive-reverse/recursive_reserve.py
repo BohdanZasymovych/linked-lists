@@ -14,3 +14,4 @@ def reverse(head):
     head.next.next = head
     head.next = None
 
+    return new_head

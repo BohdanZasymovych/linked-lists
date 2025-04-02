@@ -9,3 +9,5 @@ def swap_pairs(head):
     next_node = head.next
     head.next = next_node.next
     next_node.next = head
+
+    return next_node
